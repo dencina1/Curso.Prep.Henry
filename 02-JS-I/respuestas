@@ -1,0 +1,11 @@
+variable: Una variable es donde se guarda (y se recupera) datos que se utilizan en un programa.
+
+string: Es una cadena de texto. secuencia de palabras o caracteres.
+
+funciones: una función es una sección de un programa que calcula un valor de manera independiente al resto del programa.
+
+
+Declaraciones: Es una construcción del lenguaje que asocia un nombre con una entidad. 
+
+
+VAlores boolenanos: Es un tipo de dato logico, que puede representar valores de logica binaria. True ó falso. Verdadero ó falso. 
