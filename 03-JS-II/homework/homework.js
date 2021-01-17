@@ -105,7 +105,14 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-return numero % 1 === 0;
+
+  if (numero === Math.round (numero)) {
+    return true;
+  } else {
+    return false;
+  }
+
+ // return numero % 1 === 0;
 }
 
 function fizzBuzz(numero) {
@@ -113,17 +120,27 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-if (numero % 15 === 0){
+if (numero % 3 === 0  && numero % 5 === 0){
   return "fizzbuzz";
-}
-if (numero % 3 === 0){
-  return "fizz";
-}
-if (numero % 5 === 0){
+} else if (numero % 5 === 0){
   return "buzz";
+} else if (numero % 3 === 0){
+  return "fizz";
+} else return numero
 }
-  return numero;
-}
+
+/* function fizzBuzz (num){
+  var message = "";
+  
+  if (numero % 3 === 0){
+  message = message + "fizz";
+  }
+  if (numero % 5 === 0){
+    message = message + "buzz" 
+  }
+  return message || numero;
+  } */
+
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -208,6 +225,7 @@ do {
 }
 while (i < 8);
 return a;
+
 
 }
 
