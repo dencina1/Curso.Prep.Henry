@@ -1,0 +1,9 @@
+
+    for: Un for en programación se usa cuando queremos repetir un conjunto de instrucciones un número finito de veces.Es un bucle al igua lque while. 
+    
+    &&: Es un operador logico significa significa "and"  ("y"), indica que se cumplan ambas condiciones; 
+    
+    ||: Operador logico OR, que significa "y/o", indica que se cumpla una u otra condición (o ambas)
+    
+    !:  NOT el resultado invierte la condición de la expresión.
+
